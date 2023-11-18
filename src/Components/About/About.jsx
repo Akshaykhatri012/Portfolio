@@ -1,6 +1,6 @@
 import "./About.css";
 import AboutImg from "../../assets/about.jpg";
-import CV from "../../assets/images/Resume_Akshay_Khatri.pdf";
+import CV from "../../assets/images/Resume_AkshayKhatri.pdf";
 import Info from "./Info";
 
 function About() {
