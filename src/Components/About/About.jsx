@@ -1,5 +1,6 @@
 import "./About.css";
 import AboutImg from "../../assets/about.jpg";
+// import CV from "../../assets/images/Resume_AkshayKhatri.pdf";
 import CV from "../../assets/images/Resume_AkshayKhatri.pdf";
 import Info from "./Info";
 
