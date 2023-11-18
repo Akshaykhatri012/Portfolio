@@ -1,0 +1,63 @@
+body {
+  background: radial-gradient(#e5e5e5, #ffff, #e5e5e5);
+}
+.card {
+  /* border-radius: 1px; */
+  width: 26rem;
+  box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253) !important;
+  background-color: rgb(33, 0, 54);
+}
+.card:hover {
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0 !important;
+  color: rgb(198, 198, 198);
+}
+.card-heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.card-heading-btn {
+  display: flex;
+  column-gap: 0.5rem;
+  /* justify-content: space-around; */
+  /* align-items: flex-start; */
+}
+.card-title {
+  /* text-align: justify; */
+  /* padding-left: 2rem; */
+}
+.card-title-aside {
+  border: 0.5px solid rgb(198, 198, 198);
+  padding: 5px;
+  border-radius: 4px;
+  font-size: 15px;
+  background-color: rgb(33, 0, 54);
+  color: rgb(198, 198, 198);
+}
+.card-text {
+  font-size: 1rem;
+  padding: 0.4rem 1rem;
+}
+.container-fluid .row {
+  padding-top: 6rem;
+}
+.card-img-top {
+  transform: scale(1);
+  transition: transform 0.7s ease;
+}
+.card-img-top:hover {
+  transform: scale(1.15);
+}
+.overflow {
+  box-shadow: 5px 10px 20px 1px rgba(107, 107, 107, 0.253) !important;
+  overflow: hidden;
+  padding: 0.5rem;
+}
+.card-subtitle {
+  text-align: center;
+  color: rgb(214, 175, 255);
+}
