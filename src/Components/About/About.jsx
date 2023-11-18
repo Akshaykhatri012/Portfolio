@@ -1,7 +1,7 @@
 import "./About.css";
 import AboutImg from "../../assets/about.jpg";
 // import CV from "../../assets/images/Resume_AkshayKhatri.pdf";
-import CV from "../../assets/images/Resume_AkshayKhatri.pdf";
+
 import Info from "./Info";
 
 function About() {
@@ -22,7 +22,11 @@ function About() {
             clients, co-workers by writing clean, reusable and maintainable code
             🌠
           </p>
-          <a download="" href={CV} className="button button--flex">
+          <a
+            download="Resume_AkshayKhatri.pdf"
+            href="Resume_AkshayKhatri.pdf"
+            className="button button--flex"
+          >
             Download CV 📄
             {/* <svg
               class="button__icon"
